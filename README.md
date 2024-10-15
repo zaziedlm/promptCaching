@@ -7,7 +7,13 @@
 - `.env-template` ファイルを元にして、`.env`ファイルにこれを配置します。
 - 「走れメロス」のテキスト: スクリプトは、hashire_merosu.txt というファイルにテキストがあることを想定しています。  
 - Python 3.x: スクリプトは Python 3.x で記述されています。  
-これらの前提条件が揃ったら、以下のコマンドを実行してスクリプトを実行できます。  
+これらの前提条件が揃ったら、以下のコマンドを実行してスクリプトを実行できます。
+
+```bash
+poetry add openai python-dotenv
+ or
+pip install openai python-dotenv 
+```
 
 ```bash
 python merosu-promptcaching.py
