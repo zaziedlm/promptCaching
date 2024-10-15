@@ -21,6 +21,7 @@ python merosu-promptcaching.py
 
 ## 注意事項
 スクリプトは、入力を求めます。小説に関する質問をすることができ、スクリプトは OpenAI API を使用して応答を生成します。  
+プロンプトキャッシングのtoken数を細かく見る意図で、以前の対話メッセージは積み上げせずに、messagesを都度で構築し直しています。
 
 - hashire_merosu-first.txt: 走れメロスの最初の部分のテキスト。  
 - hashire_merosu-half.txt: 走れメロスの途中箇所の抜き出し版、途中と最終部分。  
