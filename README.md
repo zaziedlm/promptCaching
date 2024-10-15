@@ -20,7 +20,7 @@ python merosu-promptcaching.py
 ```
 
 ## 注意事項
-スクリプトは、入力の入力を求めます。小説に関する質問をすることができ、スクリプトは OpenAI API を使用して応答を生成します。  
+スクリプトは、入力を求めます。小説に関する質問をすることができ、スクリプトは OpenAI API を使用して応答を生成します。  
 
 - hashire_merosu-first.txt: 走れメロスの最初の部分のテキスト。  
 - hashire_merosu-half.txt: 走れメロスの途中箇所の抜き出し版、途中と最終部分。  
